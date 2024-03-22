@@ -1,0 +1,33 @@
+<header>
+  <h1>👩🏻 Defne Erkan 🙋🏻‍♀️</h1>
+  <h2 class="header">Computer Engineering Student | Tech and Art Enthusiast</h2>
+  <p>🪷🌟🦄💻😃🌺🫧</p>
+</header>
+
+<div class="container">
+  <h3>Contact Details:</h3>
+  <a href="mailto:daphneerkan@gmail.com" class="email"
+    >Gmail: daphneerkan&#64;gmail.com</a
+  >
+  <!-- <p>
+      LinkedIn:
+      <a href="https://www.linkedin.com/in/yourprofile">yourprofile</a>
+    </p> -->
+  <br />
+  <br />
+  <div class="content">
+    <div class="pill-group">
+      @for (item of partsArray; track item.title) {
+      <a class="pill" [href]="item.link" target="_blank" rel="noopener">
+        <span>{{ item.title }}</span>
+      </a>
+      }
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p class="bottom">© 2024 Defne Erkan</p>
+</footer>
+
+<router-outlet />
